@@ -1,0 +1,20 @@
+Passo a passo:
+
+- Instalar o git
+- Informar qual seu nome e email:
+	- git config --global user.name "Seu nome"
+	- git config --global user.email "seu@email.com"
+
+- Verificar qual o seu diretorio padrão:
+	echo ~
+- Entrar no repositorio:
+	- cd ~/nomedodiretorio
+- Informar que este diretorio será usado para versionamento:
+	- git init
+- Informar quais arquivos deseja rastrear:
+	- git status (Para te mostrar quais são os arquivos não rastreados)
+	- git add nomearquivo.ext (Sendo a extensão desejada)
+- Gravar as mudanças no repositorio:
+	- git commit -m "Explicacao sobre a alteracao"
+- Posso verificar se houveram alteracaoes nos arquivos rastreados:
+	- git status
