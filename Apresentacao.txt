@@ -39,8 +39,8 @@ Passo a passo:
 - Apos verificar que tudo esta pronto podemos mandar a alteracao para o repositorio online:
 	- git push origin master
 
-- Se você acabou de entrar no projeto pode clonar para ter os arquivos:
+- Se voce acabou de entrar no projeto pode clonar para ter os arquivos:
 	- git clone https://github.com/nomeusuario/nomerepositorio.git
 
-- Se você clonou um repositorio você agora tem acesso a todas as infos e commits:
-	- git log (Verifique tudo que passou enquanto você não fazia parte do projeto)
+- Se voce clonou um repositorio você agora tem acesso a todas as infos e commits:
+	- git log (Verifique tudo que passou enquanto voce não fazia parte do projeto)
