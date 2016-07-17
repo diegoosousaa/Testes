@@ -18,3 +18,4 @@ Passo a passo:
 	- git commit -m "Explicacao sobre a alteracao"
 - Posso verificar se houveram alteracaoes nos arquivos rastreados:
 	- git status
+- Devemos add os arquivos a cada alteracao?
