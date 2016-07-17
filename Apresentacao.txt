@@ -6,26 +6,26 @@ Passo a passo:
 	- git config --global user.name "Seu nome"
 	- git config --global user.email "seu@email.com"
 
-- Verificar qual o seu diretorio padrão:
+- Verificar qual o seu diretorio padrao:
 	echo ~
 
 - Entrar no repositorio:
 	- cd ~/nomedodiretorio
 
-- Informar que este diretorio será usado para versionamento:
+- Informar que este diretorio sera usado para versionamento:
 	- git init
 
 - Informar quais arquivos deseja rastrear:
-	- git status (Para te mostrar quais são os arquivos não rastreados)
-	- git add nomearquivo.ext (Sendo a extensão desejada)
+	- git status (Para te mostrar quais sao os arquivos nao rastreados)
+	- git add nomearquivo.ext (Sendo a extensao desejada)
 
-- Gravar as mudanças no repositorio:
+- Gravar as mudancas no repositorio:
 	- git commit -m "Explicacao sobre a alteracao"
  
-- Posso verificar se houveram alteracaoes nos arquivos rastreados:
+- Posso verificar se houveram alteracoes nos arquivos rastreados:
 	- git status
 
-- Devemos add os arquivos a cada alteracao e ai sim gravar as alterações:
+- Devemos add os arquivos a cada alteracao e ai sim gravar as alteracoes:
 	- git add nomearquivo.ext ou git add * (Adicionando todos arquivos da pasta)
 	- git commit -m "Explicacao sobre a alteracao" ou git commit * -m (para gravar todas as alteracoes)
 
@@ -36,7 +36,7 @@ Passo a passo:
 	- Dentro do diretorio do seu projeto
 	- git remote add origin master https:github.com/nomeusuario/nomerepositorio.git
 
-- Apos verificar que tudo esta pronto podemos mandar a alteração para o repositorio online:
+- Apos verificar que tudo esta pronto podemos mandar a alteracao para o repositorio online:
 	- git push origin master
 
 - Se você acabou de entrar no projeto pode clonar para ter os arquivos:
