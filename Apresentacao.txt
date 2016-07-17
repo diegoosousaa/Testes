@@ -18,4 +18,8 @@ Passo a passo:
 	- git commit -m "Explicacao sobre a alteracao"
 - Posso verificar se houveram alteracaoes nos arquivos rastreados:
 	- git status
-- Devemos add os arquivos a cada alteracao?
+- Devemos add os arquivos a cada alteracao e ai sim gravar as alterações:
+	- git add nomearquivo.ext ou git add * (Adicionando todos arquivos da pasta)
+	- git commit -m "Explicacao sobre a alteracao" ou git commit * -m (para gravar todas as alteracoes)
+- Para que possamos verificar todas as alteracoes e saber tudo que aconteceu no repositorio e por quem:
+	- git log
