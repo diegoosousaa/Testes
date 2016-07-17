@@ -1,25 +1,46 @@
 Passo a passo:
 
 - Instalar o git
+
 - Informar qual seu nome e email:
 	- git config --global user.name "Seu nome"
 	- git config --global user.email "seu@email.com"
 
 - Verificar qual o seu diretorio padrão:
 	echo ~
+
 - Entrar no repositorio:
 	- cd ~/nomedodiretorio
+
 - Informar que este diretorio será usado para versionamento:
 	- git init
+
 - Informar quais arquivos deseja rastrear:
 	- git status (Para te mostrar quais são os arquivos não rastreados)
 	- git add nomearquivo.ext (Sendo a extensão desejada)
+
 - Gravar as mudanças no repositorio:
 	- git commit -m "Explicacao sobre a alteracao"
+ 
 - Posso verificar se houveram alteracaoes nos arquivos rastreados:
 	- git status
+
 - Devemos add os arquivos a cada alteracao e ai sim gravar as alterações:
 	- git add nomearquivo.ext ou git add * (Adicionando todos arquivos da pasta)
 	- git commit -m "Explicacao sobre a alteracao" ou git commit * -m (para gravar todas as alteracoes)
+
 - Para que possamos verificar todas as alteracoes e saber tudo que aconteceu no repositorio e por quem:
 	- git log
+
+- Apontando seu projeto para o repositorio online:
+	- Dentro do diretorio do seu projeto
+	- git remote add origin master https:github.com/nomeusuario/nomerepositorio.git
+
+- Apos verificar que tudo esta pronto podemos mandar a alteração para o repositorio online:
+	- git push origin master
+
+- Se você acabou de entrar no projeto pode clonar para ter os arquivos:
+	- git clone https://github.com/nomeusuario/nomerepositorio.git
+
+- Se você clonou um repositorio você agora tem acesso a todas as infos e commits:
+	- git log (Verifique tudo que passou enquanto você não fazia parte do projeto)
