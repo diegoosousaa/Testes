@@ -44,3 +44,5 @@ Passo a passo:
 
 - Se voce clonou um repositorio você agora tem acesso a todas as infos e commits:
 	- git log (Verifique tudo que passou enquanto voce não fazia parte do projeto)
+
+((END))
